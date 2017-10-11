@@ -1,19 +1,19 @@
 {
-  "name": "e-commerce_back",
-  "version": "0.0.1",
-  "description": "back-end application for a online shopping website",
-  "main": "index.js",
+  "name": "mongodbnode",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/guilloudaudrey/e-commerce_back.git"
-  },
-  "author": "audrey",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/guilloudaudrey/e-commerce_back/issues"
-  },
-  "homepage": "https://github.com/guilloudaudrey/e-commerce_back#readme"
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "mongoose": "^4.12.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  }
 }
